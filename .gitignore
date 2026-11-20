@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# Runtime prediction logs (the cloud app starts with an empty log)
+logs/
+
+# Word/PowerPoint lock files and pre-edit backups
+~$*
+*_before_style_pass.docx
+
+# Local Claude Code settings
+.claude/settings.local.json

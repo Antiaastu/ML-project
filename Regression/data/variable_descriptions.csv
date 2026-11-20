@@ -1,0 +1,11 @@
+name,role,type,demographic,description,units,missing_values
+X1,Feature,Continuous,,Relative Compactness,,no
+X2,Feature,Continuous,,Surface Area,,no
+X3,Feature,Continuous,,Wall Area,,no
+X4,Feature,Continuous,,Roof Area,,no
+X5,Feature,Continuous,,Overall Height,,no
+X6,Feature,Integer,,Orientation,,no
+X7,Feature,Continuous,,Glazing Area,,no
+X8,Feature,Integer,,Glazing Area Distribution,,no
+Y1,Target,Continuous,,Heating Load,,no
+Y2,Target,Continuous,,Cooling Load,,no

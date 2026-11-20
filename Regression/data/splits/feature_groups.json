@@ -1,0 +1,28 @@
+{
+  "numeric": [
+    "relative_compactness",
+    "surface_area",
+    "wall_area",
+    "roof_area",
+    "overall_height",
+    "glazing_area",
+    "volume",
+    "surface_to_volume",
+    "glazing_m2"
+  ],
+  "nominal": [
+    "orientation",
+    "glazing_area_distribution"
+  ],
+  "targets": [
+    "heating_load",
+    "cooling_load"
+  ],
+  "geometry": [
+    "relative_compactness",
+    "surface_area",
+    "wall_area",
+    "roof_area",
+    "overall_height"
+  ]
+}

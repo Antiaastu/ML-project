@@ -1,0 +1,58 @@
+{
+  "heating_load": {
+    "model": "XGBoost (Optuna)",
+    "features": [
+      "relative_compactness",
+      "surface_area",
+      "wall_area",
+      "roof_area",
+      "overall_height",
+      "glazing_area",
+      "volume",
+      "surface_to_volume",
+      "glazing_m2",
+      "orientation",
+      "glazing_area_distribution"
+    ],
+    "error_band_90": 0.658851333618165,
+    "best_params": {
+      "n_estimators": 650,
+      "learning_rate": 0.09486925470008427,
+      "max_depth": 4,
+      "min_child_weight": 5,
+      "subsample": 0.9073428623590826,
+      "colsample_bytree": 0.6023768740680586,
+      "reg_lambda": 0.015213275277899027,
+      "reg_alpha": 0.002389330563034596
+    },
+    "cv_RMSE": 0.41326875718867767
+  },
+  "cooling_load": {
+    "model": "XGBoost (Optuna)",
+    "features": [
+      "relative_compactness",
+      "surface_area",
+      "wall_area",
+      "roof_area",
+      "overall_height",
+      "glazing_area",
+      "volume",
+      "surface_to_volume",
+      "glazing_m2",
+      "orientation",
+      "glazing_area_distribution"
+    ],
+    "error_band_90": 1.7739094848632826,
+    "best_params": {
+      "n_estimators": 800,
+      "learning_rate": 0.06277539869399044,
+      "max_depth": 8,
+      "min_child_weight": 6,
+      "subsample": 0.8806036840528375,
+      "colsample_bytree": 0.9420481265360412,
+      "reg_lambda": 8.71205174205475,
+      "reg_alpha": 0.028244266555075722
+    },
+    "cv_RMSE": 1.1149686119903297
+  }
+}

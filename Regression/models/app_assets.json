@@ -1,0 +1,162 @@
+{
+ "shapes": [
+  {
+   "shape_id": 1,
+   "relative_compactness": 0.98,
+   "surface_area": 514.5,
+   "wall_area": 294.0,
+   "roof_area": 110.25,
+   "overall_height": 7.0
+  },
+  {
+   "shape_id": 2,
+   "relative_compactness": 0.9,
+   "surface_area": 563.5,
+   "wall_area": 318.5,
+   "roof_area": 122.5,
+   "overall_height": 7.0
+  },
+  {
+   "shape_id": 3,
+   "relative_compactness": 0.86,
+   "surface_area": 588.0,
+   "wall_area": 294.0,
+   "roof_area": 147.0,
+   "overall_height": 7.0
+  },
+  {
+   "shape_id": 4,
+   "relative_compactness": 0.82,
+   "surface_area": 612.5,
+   "wall_area": 318.5,
+   "roof_area": 147.0,
+   "overall_height": 7.0
+  },
+  {
+   "shape_id": 5,
+   "relative_compactness": 0.79,
+   "surface_area": 637.0,
+   "wall_area": 343.0,
+   "roof_area": 147.0,
+   "overall_height": 7.0
+  },
+  {
+   "shape_id": 6,
+   "relative_compactness": 0.76,
+   "surface_area": 661.5,
+   "wall_area": 416.5,
+   "roof_area": 122.5,
+   "overall_height": 7.0
+  },
+  {
+   "shape_id": 7,
+   "relative_compactness": 0.74,
+   "surface_area": 686.0,
+   "wall_area": 245.0,
+   "roof_area": 220.5,
+   "overall_height": 3.5
+  },
+  {
+   "shape_id": 8,
+   "relative_compactness": 0.71,
+   "surface_area": 710.5,
+   "wall_area": 269.5,
+   "roof_area": 220.5,
+   "overall_height": 3.5
+  },
+  {
+   "shape_id": 9,
+   "relative_compactness": 0.69,
+   "surface_area": 735.0,
+   "wall_area": 294.0,
+   "roof_area": 220.5,
+   "overall_height": 3.5
+  },
+  {
+   "shape_id": 10,
+   "relative_compactness": 0.66,
+   "surface_area": 759.5,
+   "wall_area": 318.5,
+   "roof_area": 220.5,
+   "overall_height": 3.5
+  },
+  {
+   "shape_id": 11,
+   "relative_compactness": 0.64,
+   "surface_area": 784.0,
+   "wall_area": 343.0,
+   "roof_area": 220.5,
+   "overall_height": 3.5
+  },
+  {
+   "shape_id": 12,
+   "relative_compactness": 0.62,
+   "surface_area": 808.5,
+   "wall_area": 367.5,
+   "roof_area": 220.5,
+   "overall_height": 3.5
+  }
+ ],
+ "orientations": [
+  2,
+  3,
+  4,
+  5
+ ],
+ "glazing_areas": [
+  0.0,
+  0.1,
+  0.25,
+  0.4
+ ],
+ "glazing_distributions": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5
+ ],
+ "ranges": {
+  "relative_compactness": [
+   0.62,
+   0.98
+  ],
+  "surface_area": [
+   514.5,
+   808.5
+  ],
+  "wall_area": [
+   245.0,
+   416.5
+  ],
+  "roof_area": [
+   110.25,
+   220.5
+  ],
+  "overall_height": [
+   3.5,
+   7.0
+  ]
+ },
+ "presets": {
+  "Compact tall block, no windows": {
+   "shape_id": 1,
+   "orientation": 3,
+   "glazing_area": 0.0,
+   "glazing_area_distribution": 0
+  },
+  "Low-rise with large windows": {
+   "shape_id": 10,
+   "orientation": 4,
+   "glazing_area": 0.4,
+   "glazing_area_distribution": 1
+  },
+  "Tall building, medium windows": {
+   "shape_id": 5,
+   "orientation": 2,
+   "glazing_area": 0.25,
+   "glazing_area_distribution": 3
+  }
+ }
+}
