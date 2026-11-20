@@ -1,0 +1,10 @@
+# Extra image used only to BUILD and PREVIEW the PowerPoint and Word documents
+# (LibreOffice renders them to PDF/PNG so the layout can be checked).
+FROM ml-classification
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        libreoffice-impress libreoffice-writer poppler-utils \
+        fonts-crosextra-carlito fonts-crosextra-caladea fonts-liberation \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir --retries 10 --timeout 120 python-docx

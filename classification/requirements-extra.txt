@@ -1,0 +1,6 @@
+streamlit
+jupyterlab
+nbformat
+nbconvert
+ipykernel
+python-pptx

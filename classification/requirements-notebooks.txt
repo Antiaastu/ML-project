@@ -1,0 +1,11 @@
+# Libraries for the notebooks (EDA, training, tuning). Not used by the deployed app.
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost-cpu
+optuna
+joblib
+ucimlrepo
+imbalanced-learn

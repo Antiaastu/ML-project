@@ -1,0 +1,8 @@
+# Editor-only setting (does not affect how the code runs).
+# The Python packages for this project are installed inside the Docker image, not in the Windows Python
+# that VS Code uses, so the type checker cannot find them. Tell it not to report them as missing.
+ignore-missing-imports = [
+    "joblib", "streamlit", "streamlit.*", "pandas", "numpy", "scipy", "scipy.*",
+    "sklearn", "sklearn.*", "xgboost", "optuna", "matplotlib", "matplotlib.*", "seaborn",
+    "ucimlrepo", "nbformat", "docx", "docx.*", "pptx", "pptx.*",
+]
